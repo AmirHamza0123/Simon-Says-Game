@@ -1,0 +1,58 @@
+body{
+
+    text-align: center;
+    /* background-image:url(car.jpeg); */
+    background-color: #2C2D2D;
+}
+.mainBox{
+    display:flex;
+    justify-content:center;
+
+}
+.btn{
+    height:200px;
+    width:200px;
+    border-radius:20%;
+    border:2px solid black;
+    margin:2.5rem;
+}
+
+.red{
+    background-color:#d95980;
+
+}
+
+.yellow{
+    background-color:#f99b45;
+}
+
+.green{
+    background-color:#63aa60;
+    
+}
+
+.purple{
+    background-color: #819ff9;
+    
+}
+.gameflash{
+    background-color: white;
+}
+
+.userFlash{
+    background-color: green;
+}
+
+h2::first-line {
+  color: #008080;
+}
+
+
+h1::first-line {
+  color:#DAA520;
+  text-transform: uppercase;
+  font-weight:bold;
+  text-decoration:line-through;
+  letter-spacing: 1px;
+}
+/*#1E27618, #C25A3F,#A8DADC, #DAA520*/
